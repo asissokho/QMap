@@ -44,4 +44,4 @@ Temporary Items
 .apdisk
 
 # Resharper directory
-_ReSharper.QMap
+_ReSharper*
