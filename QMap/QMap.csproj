@@ -35,6 +35,7 @@
       <HintPath>..\packages\Dapper.1.36\lib\net40\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,10 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColumnAttribute.cs" />
     <Compile Include="Configuration\Parameter.cs" />
     <Compile Include="Configuration\Request.cs" />
+    <Compile Include="DbContext.cs" />
+    <Compile Include="DynamicParametersCollection.cs" />
     <Compile Include="IDbConnectionProvider.cs" />
+    <Compile Include="IDbContext.cs" />
+    <Compile Include="IEntity.cs" />
+    <Compile Include="IPropertyCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
