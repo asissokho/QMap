@@ -1,4 +1,0 @@
-C:\DEV\GitHub\QMap\QMap\QMap\bin\Debug\QMap.dll
-C:\DEV\GitHub\QMap\QMap\QMap\bin\Debug\QMap.pdb
-C:\DEV\GitHub\QMap\QMap\QMap\obj\Debug\QMap.dll
-C:\DEV\GitHub\QMap\QMap\QMap\obj\Debug\QMap.pdb
